@@ -931,6 +931,23 @@ public static class GameRegistry
             }
         },
         {
+            Game.DarkSoulsII, new GameMetaData
+            {
+                Game = Game.DarkSoulsII,
+                SteamIDs = new[] { 335300 },
+                MO2Name = "DarkSoulsII",
+                MO2ArchiveName = "darksouls2",
+                NexusName = "darksouls2",
+                NexusGameId = 482,
+                IsGenericMO2Plugin = true,
+                RequiredFiles = new []
+                {
+                    @"Game\DarkSoulsII.exe".ToRelativePath(),
+                },
+                MainExecutable = @"Game\DarkSoulsII.exe".ToRelativePath(),
+            }
+        },
+        {
             Game.ModdingTools, new GameMetaData
             {
                 Game = Game.ModdingTools,

@@ -55,4 +55,5 @@ public enum Game
     [Description("American McGee's Alice")] AmericanMcGeesAlice,
     [Description("Alice: Madness Returns")] AliceMadnessReturns,
     [Description("Dune: Awakening")] DuneAwakening,
+    [Description("Dark Souls II: Scholar of the First Sin")] DarkSoulsII,
 }
